@@ -1,0 +1,8 @@
+Python magic methods allow:
+customise object behaviour and integrate with the language
+define how objects are represented as strings
+control access to attributes values, both for get and set
+build in comparison and equality testing capabilities
+allow objects to be called like functions
+
+
