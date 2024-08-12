@@ -21,6 +21,7 @@ class Book:
         return result
 
 
+# We create a separate class for author and pass it to the Book class
 class Author:
     def __init__(self, fname, lname):
         self.fname = fname
@@ -29,10 +30,13 @@ class Author:
     def __str__(self):
         return f"{self.fname} {self.lname}"
 
+
+# Create a separate class for the chapter to hold chapter name and page count
 class Chapter:
     def __init__(self, name, pagecount):
         self.name = name
         self.pagecount = pagecount
+
 
 author = Author("Leo", "Tolstoy")
 b1 = Book("War and Peace", 39.0, author)
